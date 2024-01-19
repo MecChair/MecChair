@@ -1,0 +1,2 @@
+- 👋 Hi, I’m @MecChair
+- 👀 I’m building the MEC Website with the MEC 2024 Team
