@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+/* Learning FAQ
+* = "css reset" - all elements have 0 margin & 0 padding in ALL browswers initially
+border-box = includes the padding and border in the width and height
+
+
+*/
