@@ -1,8 +1,23 @@
-* {
-  margin: 0;
+nav{
   padding: 0;
-  box-sizing: border-box;
-  font-family:sans-serif;
+  margin: 0;
+  background-color: #5E376D;
+  width: 100%;
+  height: 80px;
+  font-size: 18;
+  font-family: sans-serif;
+}
+
+
+div{
+  border-color: black;
+  border-width: 30px;
+  padding: 50;
+  width: 250px;
+  height: 18px;
+  color: white;
+  align-items: center;
+  background-color: #C9A74A;
 }
 
 /* Learning FAQ
