@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="ITF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="css/nav.css">
   </head>
 
   <body>
-    <header class="nav">
-      <img href="photos/mecLogo.jpg" alt="mec-logo" class="navLogo">
+    <header class="nav-header">
+      <a href="index.html"> 
+        <img src="photos/mecLogo.jpg" alt="mec-logo" class="navLogo">
+      </a>
       
       <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-          <div class="about">
+        <a href="#" class="nav-link">Home</a>
+        <div class="dropdown">
+          <a href="#" class="nav-link">About</a>
+          <div class="dropdown-content">
+            <a href="#">MEC</a>
+            <a href="#">Our Team</a>
             <a href="gallery.html">Gallery</a>
           </div>
-        <a href="#">Competitions</a>
-        <a href="#">Sponsorship</a>
-        <a href="#">Contact Us</a>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="nav-link">Competitions</a>
+          <div class="dropdown-content">
+            <a href="#">Rulebooks</a>
+            <a href="#">Abstract</a>
+            <a href="#">Rankings</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="nav-link">Sponsorship</a>
+          <div class="dropdown-content">
+            <a href="#">Sponsorship Information</a>
+            <a href="#">Sponsors and Partners</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="nav-link">Contact Us</a>
+          <div class="dropdown-content">
+            <a href="#">Contact Chairs</a>
+            <a href="#">Competition Inquries</a>
+            <a href="#">Sponsorship Inquries</a>
+          </div>
+        </div>
       </nav>
     </header>
   </body>
-  TEST
 </html>
