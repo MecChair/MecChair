@@ -5,20 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $("#navContainer").load("navbar.html");
+    });
+  </script>
   </head>
 
   <body>
-    <nav class="nav" id="navContainer">
-      <ul class="navbar">
-        <img src="photos/mecLogo.jpg" alt="mec-logo" width="50" height="50">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="rulebook.html">Competitions</a>
-        <a href="sponsor.html">Sponsorship</a>
-        <a href="contact.html">Contact Us</a>
-      </ul>
-    </nav>
-
+    <div id="navContainer"></div>
     <div class="gallery2024">
       <div id="galleryTitle">
         <h1>MEC 2024</h1>
